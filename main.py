@@ -1,5 +1,5 @@
 import pygame
-
+from flap import Bird
 pygame.init()
 
 win = pygame.display.set_mode((500,500))
@@ -11,6 +11,10 @@ while True:
             exit()
 
     win.fill(bc)
+
+    #pygame.score()
+    #pygame.name("YOU")  нужно подумать как сделать подсчет инфы score и games после того как сделаю регенерацию труб
+    #pygame.games()
 
     pygame.display.update()
 
